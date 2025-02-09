@@ -11,15 +11,15 @@ public class Attendance implements Serializable {
     private String saturday;
     private String sunday;
 
-    public Attendance(String monday, String tuesday, String wednesday, String thursday, String friday, String saturday, String sunday) {
-        this.monday = monday;
-        this.tuesday = tuesday;
-        this.wednesday = wednesday;
-        this.thursday = thursday;
-        this.friday = friday;
-        this.saturday = saturday;
-        this.sunday = sunday;
-    }
+//    public Attendance(String monday, String tuesday, String wednesday, String thursday, String friday, String saturday, String sunday) {
+//        this.monday = monday;
+//        this.tuesday = tuesday;
+//        this.wednesday = wednesday;
+//        this.thursday = thursday;
+//        this.friday = friday;
+//        this.saturday = saturday;
+//        this.sunday = sunday;
+//    }
 
     public String getMonday() {
         return monday;
