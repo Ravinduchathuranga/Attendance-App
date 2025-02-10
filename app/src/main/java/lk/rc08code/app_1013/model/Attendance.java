@@ -1,15 +1,13 @@
 package lk.rc08code.app_1013.model;
 
-import java.io.Serializable;
-
-public class Attendance implements Serializable {
-    private String monday;
-    private String tuesday;
-    private String wednesday;
-    private String thursday;
-    private String friday;
-    private String saturday;
-    private String sunday;
+public class Attendance {
+    private int monday;
+    private int tuesday;
+    private int wednesday;
+    private int thursday;
+    private int friday;
+    private int saturday;
+    private int sunday;
 
 //    public Attendance(String monday, String tuesday, String wednesday, String thursday, String friday, String saturday, String sunday) {
 //        this.monday = monday;
@@ -21,59 +19,59 @@ public class Attendance implements Serializable {
 //        this.sunday = sunday;
 //    }
 
-    public String getMonday() {
+    public int getMonday() {
         return monday;
     }
 
-    public void setMonday(String monday) {
+    public void setMonday(int monday) {
         this.monday = monday;
     }
 
-    public String getTuesday() {
+    public int getTuesday() {
         return tuesday;
     }
 
-    public void setTuesday(String tuesday) {
+    public void setTuesday(int tuesday) {
         this.tuesday = tuesday;
     }
 
-    public String getWednesday() {
+    public int getWednesday() {
         return wednesday;
     }
 
-    public void setWednesday(String wednesday) {
+    public void setWednesday(int wednesday) {
         this.wednesday = wednesday;
     }
 
-    public String getThursday() {
+    public int getThursday() {
         return thursday;
     }
 
-    public void setThursday(String thursday) {
+    public void setThursday(int thursday) {
         this.thursday = thursday;
     }
 
-    public String getFriday() {
+    public int getFriday() {
         return friday;
     }
 
-    public void setFriday(String friday) {
+    public void setFriday(int friday) {
         this.friday = friday;
     }
 
-    public String getSaturday() {
+    public int getSaturday() {
         return saturday;
     }
 
-    public void setSaturday(String saturday) {
+    public void setSaturday(int saturday) {
         this.saturday = saturday;
     }
 
-    public String getSunday() {
+    public int getSunday() {
         return sunday;
     }
 
-    public void setSunday(String sunday) {
+    public void setSunday(int sunday) {
         this.sunday = sunday;
     }
 }

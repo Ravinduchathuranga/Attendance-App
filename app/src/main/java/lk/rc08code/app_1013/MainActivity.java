@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import lk.rc08code.app_1013.model.Attendance;
 
 public class MainActivity extends AppCompatActivity {
-    public Attendance attendance = new Attendance();
+    public static Attendance attendance = new Attendance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,10 +56,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 EditText textView = findViewById(R.id.editTextText);
-                if (textView.getText().toString().isEmpty()) {
+
+                if (textView.toString().isEmpty()) {
                     Toast.makeText(MainActivity.this, "Please enter number of attendace", Toast.LENGTH_SHORT).show();
                 } else {
-                    String count = textView.getText().toString();
+
+                    int count = Integer.parseInt(textView.getText().toString());
 
                     String editTextDate = spinner.getSelectedItem().toString();
 

@@ -4,4 +4,5 @@
     <string name="attendace_count">Attendace Count</string>
     <string name="save">Save</string>
     <string name="view_bar_chart">View Bar Chart</string>
+    <string name="enter_count_here">Enter count here</string>
 </resources>
