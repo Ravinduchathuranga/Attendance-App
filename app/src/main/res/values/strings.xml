@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">App-1.0.13</string>
+    <string name="attendace_history">Attendace History</string>
+    <string name="attendace_count">Attendace Count</string>
+    <string name="save">Save</string>
+    <string name="view_bar_chart">View Bar Chart</string>
+    <string name="enter_count_here">Enter count here</string>
 </resources>
